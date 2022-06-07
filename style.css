@@ -1,0 +1,507 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.cabecalho {
+  width: 100%;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  border-bottom: 1px solid #dbdbdb;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.barraTopo {
+  width: 935px;
+  height: 54px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.caixaPesquisar {
+  width: 215px;
+  height: 28px;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #979797;
+  border: 1px solid #dbdbdb;
+  background-color: #fafafa;
+}
+
+.caixaDireita {
+  width: 169px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.caixaEsquerda {
+  width: 146px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.caixaEsquerda img {
+  width: 103px;
+  height: 29px;
+}
+
+.caixaEsquerda div {
+  width: 1px;
+  height: 22px;
+  background-color: #dbdbdb;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+}
+
+.caixaConteudo {
+  width: 614px;
+  margin-top: 88px;
+  background-color: #fafafa;
+}
+
+.caixaSidebar {
+  width: 293px;
+  height: 444px;
+  margin-left: 29px;
+  position: sticky;
+  top: 105px;
+}
+
+.topoSB {
+  width: 100%;
+  height: 56px;
+  display: flex;
+  align-items: center;
+}
+
+.imgSBtopo {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+.identificacao {
+  margin-left: 17px;
+  display: flex;
+  flex-direction: column;
+}
+
+.identificacao :first-child {
+  font-size: 14px;
+  font-weight: 500px;
+  margin-bottom: 1px;
+  color: #262626;
+}
+
+.identificacao :last-child {
+  font-size: 14px;
+  font-weight: 300;
+  color: #9b9b9b;
+}
+
+.caixaSugestao {
+  width: 200px;
+  height: 255px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.caixaSugestao p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #8e8e8e;
+}
+
+.sugestao {
+  display: flex;
+}
+
+.imgSugestao {
+  width: 32px;
+  height: 32px;
+  margin-right: 14px;
+  border-radius: 50%;
+}
+
+.legendaSugestao :first-child {
+  font-size: 14px;
+  font-weight: 500px;
+  margin-bottom: 4px;
+  color: #262626;
+}
+
+.legendaSugestao :last-child {
+  font-size: 12px;
+  font-weight: 400;
+  color: #8e8e8e;
+}
+
+.meioSB {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.verTudoSB {
+  width: 93px;
+  height: 246px;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.verTudoSB h1 {
+  color: #262626;
+}
+
+.verTudoSB p {
+  color: #139ef2;
+}
+
+.baseSB {
+  width: 100%;
+  height: 71px;
+  margin-top: 36px;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 12px;
+  color: #c7c7c7;
+}
+
+.baseSB :first-child {
+  margin-bottom: 20px;
+}
+
+.caixaStories {
+  width: 100%;
+  height: 118px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.setaStories {
+  font-size: 32px;
+  color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 4 4 rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: 43px;
+  right: 6px;
+}
+
+.stories {
+  width: 66px;
+  height: 85px;
+  font-size: 12px;
+  font-weight: 400px;
+  color: #262626;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-left: 14px;
+}
+
+.storiesBG {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.storiesPessoas {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+}
+
+.caixaPosts {
+  width: 100%;
+  margin-top: 24px;
+}
+
+.post {
+  width: 100%;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  background-color: #ffffff;
+}
+
+.topoPost {
+  width: 100%;
+  height: 62px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #262626;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.topoImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin: 0 15px;
+}
+
+.topoPost ion-icon {
+  font-size: 16px;
+  position: absolute;
+  top: 22px;
+  right: 15px;
+}
+
+.imgPost {
+  width: 100%;
+}
+
+video {
+  width: 100%;
+}
+
+.reacaoPost {
+  width: 100%;
+  height: 32px;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+
+.reacaoPost ion-icon {
+  margin-left: 14px;
+}
+
+.reacaoPost :last-child {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+
+#curtiu {
+  color: #ed4956;
+}
+
+.informacaoPost {
+  width: 100%;
+  height: 44px;
+  font-size: 14px;
+  color: #262626;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.informacaoPost p {
+  font-weight: 300;
+}
+
+.informacaoPost h1 {
+  font-weight: 500;
+}
+
+.informacaoImg {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.verComentarios {
+  width: 100%;
+  height: 20px;
+  font-size: 14px;
+  color: #8e8e8e;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.comentarios {
+  width: 100%;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #262626;
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.comentarios h1 {
+  font-weight: 500;
+  margin-left: 15px;
+}
+
+.comentarios ion-icon {
+  font-size: 12px;
+  position: absolute;
+  top: 4px;
+  right: 12px;
+}
+
+.publicarComents {
+  width: 100%;
+  height: 54px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #dbdbdb;
+  margin-top: 10px;
+}
+
+.caixaTexto {
+  width: 100%;
+  display: flex;
+}
+
+.caixaTexto ion-icon {
+  margin: 0 15px;
+}
+
+.caixaPublicar {
+  font-weight: 500;
+  color: #b2dffc;
+  margin-right: 15px;
+}
+
+.caixaPublicar:hover {
+  color: #0095f6;
+  transition: color 300ms;
+}
+
+input {
+  font-weight: 300;
+  border-style: hidden;
+  outline: 0;
+}
+
+ion-icon {
+  font-size: 22px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.topoMobile {
+  display: none;
+}
+
+.barraBase {
+  display: none;
+}
+
+body::-webkit-scrollbar {
+  display: none; /*scrollbar oculta para Chrome, Safari e Opera*/
+}
+
+body {
+  -ms-overflow-style: none; /*scrollbar oculta para IE e Edge*/
+  scrollbar-width: none; /*scrollbar oculta para Firefox*/
+}
+
+/*breakpoint 935px*/
+@media (max-width: 935px) {
+  .caixaSidebar {
+    display: none;
+  }
+
+  .barraTopo {
+    padding: 0 3%;
+  }
+}
+
+/*breakpoint 614px*/
+@media (max-width: 614px) {
+  .barraTopo {
+    display: none;
+  }
+
+  .topoMobile {
+    width: 100%;
+    height: 54px;
+    padding: 0 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .caixaConteudo {
+    width: 100%;
+    margin-top: 54px;
+  }
+
+  .caixaStories {
+    width: 100%;
+    height: 118px;
+    border: hidden;
+    background-color: transparent;
+  }
+
+  .setaStories {
+    display: none;
+  }
+
+  .caixaPosts {
+    margin-top: 0;
+  }
+
+  .post {
+    height: auto;
+    border-radius: 0;
+  }
+
+  .barraBase {
+    width: 100%;
+    height: 54px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 3%;
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+  }
+}
